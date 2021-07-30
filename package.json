@@ -2,6 +2,7 @@
   "name": "@one-broker-services/dynamic-builder",
   "version": "0.0.1",
   "description": "An easy to use param builder for dynamodb",
+  "repository": "https://github.com/One-Broker-Services/dynamic-builder.git",
   "main": "index.js",
   "directories": {
     "example": "examples",

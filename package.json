@@ -1,5 +1,5 @@
 {
-  "name": "dynamic-builder",
+  "name": "@one-broker-services/dynamic-builder",
   "version": "0.0.1",
   "description": "An easy to use param builder for dynamodb",
   "main": "index.js",

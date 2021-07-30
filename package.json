@@ -1,0 +1,39 @@
+{
+  "name": "dynamic-builder",
+  "version": "0.0.1",
+  "description": "An easy to use param builder for dynamodb",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "dependencies": {
+    "json-stringify-safe": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.8",
+    "@babel/register": "^7.12.1",
+    "@dabh/diagnostics": "^2.0.2",
+    "@types/jest": "26.0.24",
+    "chai": "^4.2.0",
+    "eslint-plugin-jest": "24.4.0",
+    "eslint-plugin-jest-formatting": "^3.0.0",
+    "jest": "27.0.6",
+    "jest-chain": "^1.1.5",
+    "jest-extended": "^0.11.5",
+    "mocha": "9.0.3"
+  },
+  "scripts": {
+    "test:mocha": "mocha --reporter=spec  --require @babel/register 'tests/**/*.js'",
+    "test": "jest --testTimeout 30000 --silent",
+    "test:verbose": "jest --verbose --testTimeout 30000"
+  },
+  "keywords": [
+    "dynamodb",
+    "params",
+    "builder"
+  ],
+  "author": "David Estevez",
+  "license": "ISC"
+}
